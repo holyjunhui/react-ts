@@ -1,0 +1,33 @@
+.main-layout {
+	height: 100vh;
+	.main-sidebar {
+	}
+	.main-wrap {
+		.layout-header {
+			background: #fff;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.header-left {
+				margin-left: 20px;
+			}
+			.header-right {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				.avatar {
+					margin-right: 0;
+				}
+				.ant-dropdown-link {
+					margin: 0 20px;
+					span {
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+		.main-content {
+		}
+	}
+}
